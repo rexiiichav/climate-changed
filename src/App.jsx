@@ -1,35 +1,40 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import Section from "/home/rex/repos/climate-changed/components/Section/Section.jsx";
+import ProgressBar from "../components/Section Components/Progress Bar/ProgressBar";
 
-function App() {
-  const [count, setCount] = useState(0)
-
+export default function App() {
   return (
     <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <Section color="black" textColor="white">
+        <img
+          style={{ minHeight: "100px", maxHeight: "125px" }}
+          src="src/Assets/earth.png"
+          alt="Planet Earth Logo"
+        />
+        <h1>Climate Changed</h1>
+      </Section>
+      <Section color="#018575" textColor="black">
+        <h3>Rainforest</h3>
+        <ProgressBar percentage="36%" color="#00bf63"></ProgressBar>
+      </Section>
+      <Section color="#38b6ff" textColor="black">
+        <h3>Coral Reefs</h3>
+        <ProgressBar percentage="44%" color="#5ce1e6"></ProgressBar>
+      </Section>
+      <Section color="white" textColor="black">
+        <h3>Glaciers</h3>
+        <ProgressBar percentage="60%" color="#d9d9d9"></ProgressBar>
+      </Section>
+      <Section color="#00bf63" textColor="black">
+        <h3>Forest</h3>
+        <ProgressBar percentage="65%" color="#018575"></ProgressBar>
+      </Section>
+      <Section color="#c1ff72" textColor="black">
+        <h3>Life</h3>
+        <ProgressBar percentage="31%" color="#00bf63"></ProgressBar>
+      </Section>
+      <Section color="black" textColor="white">
+        <h2>Make a Difference</h2>
+      </Section>
     </>
-  )
+  );
 }
-
-export default App

@@ -1,17 +1,12 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import App from "./App";
-import Home from "../components/Home/Home";
+import App from "/home/rex/repos/climate-changed/src/App.jsx";
 
 const Router = () => {
   const router = createBrowserRouter([
     {
       path: "/",
-      element: <Home />,
+      element: <App />,
       errorElement: <p>Hi</p>,
-    },
-    {
-      path: "profile",
-      element: <p>Hi</p>,
     },
   ]);
 

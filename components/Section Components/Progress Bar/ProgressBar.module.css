@@ -1,0 +1,21 @@
+.border {
+  background-color: black;
+  border: 2px solid black;
+  border-radius: 75px;
+  width: 60%;
+  height: 50px;
+  margin: 25px 0px 25px 0px;
+  border: 0;
+}
+
+.bar {
+  border-radius: inherit;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+div.bar p {
+  font-size: 1.8rem;
+}

@@ -1,0 +1,15 @@
+div.internals {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
+  min-height: 350px;
+  width: 100%;
+}
+
+div.internals h1,
+div.internals h2,
+div.internals h3 {
+  font-size: 3rem;
+}
