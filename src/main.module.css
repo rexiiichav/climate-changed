@@ -103,10 +103,6 @@ section {
 body {
   line-height: 1;
 }
-ol,
-ul {
-  list-style: none;
-}
 blockquote,
 q {
   quotes: none;
@@ -125,6 +121,11 @@ table {
 
 /* ------ */
 
-h1 {
-  font-size: 3rem;
+a {
+  color: white;
+  margin-right: 0.3rem;
+}
+
+body {
+  overflow-x: hidden;
 }

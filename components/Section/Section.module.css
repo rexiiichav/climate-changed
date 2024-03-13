@@ -3,13 +3,24 @@ div.internals {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  gap: 15px;
-  min-height: 350px;
-  width: 100%;
+  gap: 1rem;
+  padding: 3.5rem;
+  position: relative;
 }
 
 div.internals h1,
 div.internals h2,
 div.internals h3 {
   font-size: 3rem;
+  text-align: center;
+}
+
+/* div.internals img {
+  width: 35%;
+} */
+
+@media screen and (max-width: 700px) {
+  div.internals img {
+    display: none;
+  }
 }

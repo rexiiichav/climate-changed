@@ -6,7 +6,7 @@ const Router = () => {
     {
       path: "/",
       element: <App />,
-      errorElement: <p>Hi</p>,
+      errorElement: <p>Error</p>,
     },
   ]);
 
