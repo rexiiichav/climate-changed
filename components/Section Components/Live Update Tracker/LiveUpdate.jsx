@@ -14,10 +14,10 @@ export default function LiveUpdate({ tracker, addend }) {
   }, [number]);
 
   return (
-    <div>
+    <div style={{ width: "75%" }}>
       <p
         style={{ fontSize: "1.7rem", textAlign: "center" }}
-      >{`${number} ${tracker} Since Coming to this Page`}</p>
+      >{`${number} ${tracker} since coming to this page`}</p>
     </div>
   );
 }

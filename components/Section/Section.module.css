@@ -19,7 +19,7 @@ div.internals h3 {
   width: 35%;
 } */
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 900px) {
   div.internals img {
     display: none;
   }
