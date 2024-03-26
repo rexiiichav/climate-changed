@@ -20,7 +20,7 @@ export default function App() {
       <Section color="#018575" textColor="black">
         <h3>rainforest</h3>
         <ProgressBar percentage="43%" color="#00bf63"></ProgressBar>
-        <LiveUpdate addend={1.5} tracker="acres destroyed" />
+        <LiveUpdate addend={0.375} tracker="acres destroyed" />
         <img
           src="src/Assets/tropical-leaves.png"
           alt=""
@@ -36,7 +36,7 @@ export default function App() {
       <Section color="#38b6ff" textColor="black">
         <h3>coral reefs</h3>
         <ProgressBar percentage="50%" color="#5ce1e6"></ProgressBar>
-        <LiveUpdate addend={0.01} tracker="acres died" />
+        <LiveUpdate addend={0.0025} tracker="acres died" />
         <img
           src="src/Assets/coral.png"
           alt=""
@@ -51,7 +51,7 @@ export default function App() {
       <Section color="white" textColor="black">
         <h3>glaciers</h3>
         <ProgressBar percentage="50%" color="#d9d9d9"></ProgressBar>
-        <LiveUpdate addend={130032} tracker="metric tons melted" />
+        <LiveUpdate addend={32508} tracker="metric tons melted" />
         <img
           src="src/Assets/Iceberg-Underwater.png"
           alt=""
@@ -67,7 +67,7 @@ export default function App() {
       <Section color="#00bf63" textColor="black">
         <h3>forest</h3>
         <ProgressBar percentage="50%" color="#018575"></ProgressBar>
-        <LiveUpdate addend={0.78} tracker="acres lost" />
+        <LiveUpdate addend={0.195} tracker="acres lost" />
         <img
           src="src/Assets/tree.png"
           alt=""
@@ -82,7 +82,7 @@ export default function App() {
       <Section color="#c1ff72" textColor="black">
         <h3>life</h3>
         <ProgressBar percentage="31%" color="#00bf63"></ProgressBar>
-        <LiveUpdate addend={0.00006} tracker="new extinct species" />
+        <LiveUpdate addend={0.000015} tracker="new extinct species" />
         <img
           src="src/Assets/reindeer.png"
           alt=""
