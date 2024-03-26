@@ -1,7 +1,7 @@
 import Section from "/home/rex/repos/climate-changed/components/Section/Section.jsx";
 import ProgressBar from "../components/Section Components/Progress Bar/ProgressBar";
 import LiveUpdate from "/home/rex/repos/climate-changed/components/Section Components/Live Update Tracker/LiveUpdate.jsx";
-import video from "/home/rex/repos/climate-changed/src/Assets/rotatingEarth.mp4";
+import video from "/home/rex/repos/climate-changed/public/Assets/rotatingEarth.mp4";
 
 export default function App() {
   return (
@@ -12,7 +12,7 @@ export default function App() {
           src="src/Assets/earth.png"
           alt="Planet Earth Logo"
         /> */}
-        <video autoPlay muted playsinline loop width="350rem">
+        <video autoPlay muted loop width="350rem">
           <source src={video} type="video/mp4" />
         </video>
         <h1>climate changed</h1>
@@ -22,7 +22,7 @@ export default function App() {
         <ProgressBar percentage="43%" color="#00bf63"></ProgressBar>
         <LiveUpdate addend={0.375} tracker="acres destroyed" />
         <img
-          src="src/Assets/tropical-leaves.png"
+          src="Images/tropical-leaves.png"
           alt=""
           style={{
             position: "absolute",
@@ -38,7 +38,7 @@ export default function App() {
         <ProgressBar percentage="50%" color="#5ce1e6"></ProgressBar>
         <LiveUpdate addend={0.0025} tracker="acres died" />
         <img
-          src="src/Assets/coral.png"
+          src="Images/coral.png"
           alt=""
           style={{
             position: "absolute",
@@ -53,7 +53,7 @@ export default function App() {
         <ProgressBar percentage="50%" color="#d9d9d9"></ProgressBar>
         <LiveUpdate addend={32508} tracker="metric tons melted" />
         <img
-          src="src/Assets/Iceberg-Underwater.png"
+          src="Images/Iceberg-Underwater.png"
           alt=""
           style={{
             position: "absolute",
@@ -69,7 +69,7 @@ export default function App() {
         <ProgressBar percentage="50%" color="#018575"></ProgressBar>
         <LiveUpdate addend={0.195} tracker="acres lost" />
         <img
-          src="src/Assets/tree.png"
+          src="Images/tree.png"
           alt=""
           style={{
             position: "absolute",
@@ -84,7 +84,7 @@ export default function App() {
         <ProgressBar percentage="31%" color="#00bf63"></ProgressBar>
         <LiveUpdate addend={0.000015} tracker="new extinct species" />
         <img
-          src="src/Assets/reindeer.png"
+          src="Images/reindeer.png"
           alt=""
           style={{
             position: "absolute",
